@@ -1,0 +1,17 @@
+.content {
+    width: 1460px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;top: 30px;
+}
+.content ul {
+    height: 300px;
+}
+.content ul li {
+    float: left;
+    width: 300px;
+    margin: 30px;
+}
+.content ul li a img {
+    width: 100%;
+}

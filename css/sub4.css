@@ -1,0 +1,89 @@
+.content {
+    width: 1460px;
+    height: 1500px;
+    margin: 0 auto;
+    position: relative;top: 30px;
+}
+.searchForm {
+    height: 100px;
+    background: #ddd;
+}
+.searchForm form {
+    position: absolute; top: 30px; left: 200px;
+}
+.searchForm #sel {
+    width: 143px;
+    height: 40px;
+    font-size: 15px;
+}
+.searchForm  .sea {
+    width: 690px;
+    height: 37px;
+    font-size: 15px;
+}
+.searchForm input {
+    width: 160px;
+    height: 40px;
+}
+.searchForm .btn {
+    background: #242424;
+    color:#fff;
+}
+
+table {
+    width: 1460px;
+
+    margin-top: 50px;
+    border-top: 1px solid #3d6df0;
+}
+table tr th{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    background: #e1e1e1;
+}
+table tr td{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+table tr td img{
+    width: 20px;
+    height: 20px;
+}
+table th:nth-child(1){
+    width: 100px;
+}
+table th:nth-child(2){
+    width: 910px;
+}
+table th:nth-child(3){
+    width: 150px;
+}
+table th:nth-child(4){
+    width: 150px;
+}
+table th:nth-child(5){
+    width: 150px;
+    
+}
+.pagenation {
+    position: absolute; top: 650px; left: 600px;
+}
+.pagenation li{
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 3px;
+}
+.pagenation li a{
+    display: block;
+    color: #5e5e5e;
+}
+.pagenation li:nth-child(3) a{
+    font-weight: bold;
+    color: #000;
+}  

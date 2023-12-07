@@ -1,0 +1,33 @@
+.ceotxt {
+    width: 1460px;
+    height: 288px;
+    margin: 0 auto;
+    position: relative; top: 80px;
+    background: url(../image/ceo.png) 0 0 no-repeat;
+    background-size : cover;
+}
+
+.ceotxt h2 {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 500;
+}
+.ceotxt h2 span {
+    background: linear-gradient(to top, #ced5f0 50%, transparent 50%);
+}
+.ceotxt h3 {
+    font-size: 22px;
+    text-align: center;
+    position: relative; top: 130px;
+    font-weight: 100;
+}
+.ceotxt h3 span{
+    color:#3a57c2
+}
+.ptxt {
+    width: 1460px;
+    height: 500px;
+    position: relative; top: 120px; left: 220px;
+    font-size: 18px;
+    font-weight: 100;
+}
